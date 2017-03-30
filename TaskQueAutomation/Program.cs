@@ -35,10 +35,12 @@ namespace TaskQueAutomation
         }
 
         [Test]
-        public static void Login()
+        public void CreateTask()
         {
-            Console.WriteLine("test");
+            AddTaskObjectModel ad = new AddTaskObjectModel();
+            ad.CreateTask();
         }
+
 
         
         [TearDown]

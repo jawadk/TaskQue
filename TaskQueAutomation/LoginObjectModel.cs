@@ -18,7 +18,7 @@ namespace TaskQueAutomation
             PageFactory.InitElements(Browser.wdriver, this);
         }
 
-        public static string DashBoardURL = "https://taskque.com/dashboard#/app/workspace/";
+        public static string DashBoardURL = "https://taskque.com/dashboard#/app/workspace/1122/project/2441";
 
         [FindsBy(How = How.Id, Using = "YumUserLogin_username")]
         public IWebElement txt_UserName { get; set; }
@@ -39,13 +39,13 @@ namespace TaskQueAutomation
             txt_Password.SendKeys(password);
             btn_login.Click();
 
-            //Thread.Sleep(10000);
-            Browser.wdriver.Navigate().GoToUrl("https://taskque.com/dashboard#/app/workspace/1122/project/2441");
-
-            //Assert.AreEqual("Live Testing Project.", Browser.wdriver.Title);
+            /* Wait until page completly loads */
+            WebDriverWait wait = new WebDriverWait(Browser.wdriver, TimeSpan.FromSeconds(150));
+            wait.Until(ExpectedConditions.UrlToBe(DashBoardURL));
+            
+            /* Assert page title and page URL after login */
+            Assert.AreEqual(DashBoardURL, Browser.wdriver.Url);
             Assert.AreEqual("Live Testing Project.", Browser.wdriver.Title);
-            
-            
             
         }
     }

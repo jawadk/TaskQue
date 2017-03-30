@@ -68,6 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddTaskObjectModel.cs" />
     <Compile Include="Browser.cs" />
     <Compile Include="CustomMethods.cs" />
     <Compile Include="LoginObjectModel.cs" />

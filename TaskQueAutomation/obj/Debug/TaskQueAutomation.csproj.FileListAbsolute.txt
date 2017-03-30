@@ -8,6 +8,5 @@ D:\VS_Workspace\TaskQueAutomation\TaskQueAutomation\bin\Debug\WebDriver.Support.
 D:\VS_Workspace\TaskQueAutomation\TaskQueAutomation\bin\Debug\nunit.framework.xml
 D:\VS_Workspace\TaskQueAutomation\TaskQueAutomation\bin\Debug\WebDriver.xml
 D:\VS_Workspace\TaskQueAutomation\TaskQueAutomation\bin\Debug\WebDriver.Support.xml
-D:\VS_Workspace\TaskQueAutomation\TaskQueAutomation\obj\Debug\TaskQueAutomation.csprojResolveAssemblyReference.cache
 D:\VS_Workspace\TaskQueAutomation\TaskQueAutomation\obj\Debug\TaskQueAutomation.exe
 D:\VS_Workspace\TaskQueAutomation\TaskQueAutomation\obj\Debug\TaskQueAutomation.pdb
