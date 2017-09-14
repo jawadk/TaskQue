@@ -16,8 +16,8 @@ namespace TaskQueAutomation
         public static string BaseURL = "https://taskque.com/user/auth";
 
         /* Login credentials*/
-        private static string Username = "jawadkhan.it@gmail.com";
-        private static string Password = "123456";
+        private static string Username = "";
+        private static string Password = "";
 
         static void Main(string[] args)
         {
